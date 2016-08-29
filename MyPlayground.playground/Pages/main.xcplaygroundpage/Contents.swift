@@ -16,7 +16,7 @@
 */
 // write your code here
 
-
+var bankAccount: Int = 0
 
 
 /*: question2
@@ -25,7 +25,7 @@
 // write your code here
 
 
-
+let puppy: String = "Bella"
 
 /*: question3
 ### 3. Use the `print()` function to print the name of your new puppy to the console.
@@ -33,14 +33,14 @@
 // write your code here
 
 
-
+print (puppy)
 
 /*: question4
 ### 4. Use the `print()` function to print the sentence "I just got a new puppy named <your puppy's name> and she is awesome!" to the console.
 */
 // write your code here
 
-
+print ("I just got a new puppy named \(puppy) and she is awesome!")
 
 
 /*: question5
@@ -49,22 +49,24 @@
 // write your code here
 
 
-
+print ("I have $\(bankAccount) in my bank account.")
 
 /*: question6
 ### 6. Congratulations! You just got $100 for your birthday, so now you have $100 more in your bank account. Update your bank account with the new balance and print "I now have $<balance>." to the console.
 */
 // write your code here
 
+bankAccount = 100
 
-
+print ( "I now have $\(bankAccount).")
 
 /*: question7
 ### 7. You decided you don't like the name Bella. Change your puppy's name to something else. (Can you do this? What happens when you try? Why?)
 */
 // write your code here
 
-
+puppy:String = "Claire"
+//error because previously defined as a constant variable
 /*:
  Checkout the solution branch - git co solution or git checkout solution and then scroll back down to this very spot to see a link that directs you to the solutions to the above questions.
  
